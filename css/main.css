@@ -333,11 +333,12 @@ border: rgb(35, 35, 253) 1px solid;
     flex: 1;
     border-radius: 2rem;
     text-align: center;
-}
-
-.details-container1:hover{
         box-shadow: rgb(23, 23, 219) 0px 2px 8px 0px;
 }
+/* 
+.details-container1:hover{
+        box-shadow: rgb(23, 23, 219) 0px 2px 8px 0px;
+} */
 
 .section-container{
     gap: 4rem;
@@ -377,6 +378,15 @@ border: rgb(35, 35, 253) 1px solid;
             width: 15rem;
             justify-content: center;
             gap: 0.5rem;
+}
+
+.details-container1:hover {
+    background-color: rgb(23, 23, 219);
+    color: white !important;
+}
+.details-container1 p:hover {
+    /* background-color: rgb(23, 23, 219); */
+    color: white !important;
 }
 
 .article-container{
@@ -540,7 +550,7 @@ footer p{
             width: 270px;
             height: 270px;
             margin-bottom: 20px;
-            margin-left: 20px;
+            margin-left: 18px;
         }
     footer nav{
         height: fit-content;
